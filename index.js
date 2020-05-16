@@ -10,5 +10,5 @@ function nowServing(line)
   if (typeof currentlyServed === 'undefined')
     return "There is nobody waiting to be served!"
   else
-    return "Currently serving " + currentlyServed
+    return "Currently serving " + currentlyServed +"."
 }
