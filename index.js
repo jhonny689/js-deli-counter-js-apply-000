@@ -21,7 +21,7 @@ function currentLine(line)
   else
     for(let i=0; i<line.length; i++)
     {
-      res+=i+". "+line[i]
+      res+=i+1+". "+line[i]
       if(i<line.length-1){
         res+=", "
       }
