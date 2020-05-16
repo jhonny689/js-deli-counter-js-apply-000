@@ -12,3 +12,8 @@ function nowServing(line)
   else
     return "Currently serving " + currentlyServed +"."
 }
+
+function currentLine(line)
+{
+  
+}
