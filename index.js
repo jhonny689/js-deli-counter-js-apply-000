@@ -6,5 +6,6 @@ function takeANumber(line, name)
 
 function nowServing(line)
 {
-  var currentlyServed = line.pop()
+  var currentlyServed = line.shift()
+  
 }
